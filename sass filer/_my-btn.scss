@@ -1,0 +1,17 @@
+@import "colors";
+
+@mixin mybtn {
+    background-color: $primary;
+    border-radius: 25px !important;
+    color: $textcolor;
+
+    &:hover {
+        background: $hoovercolor !important;
+    }
+}
+
+@mixin sales {
+    background-color: $secundary;
+    color: $primary;
+}
+
